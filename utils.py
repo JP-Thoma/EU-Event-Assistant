@@ -16,7 +16,7 @@ def ask_mistral(prompt, model="meta-llama/Llama-3.3-70B-Instruct-Turbo-Free", te
     response = client.chat.completions.create(
         model=model,
         messages=[
-            {"role": "system", "content": "You are a helpful assistant summarizing EU events."},
+            {"role": "system", "content": "You are a helpful assistant for EU trainess summarising EU-bubble events in Brussels."},
             {"role": "user", "content": prompt}
         ],
         temperature=temperature,
