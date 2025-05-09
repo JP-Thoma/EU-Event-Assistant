@@ -135,6 +135,9 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+# Ignore sensitive config, but keep the folder structure
+.streamlit/secrets.toml 
+
 
 # Spyder project settings
 .spyderproject
